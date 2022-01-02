@@ -1,0 +1,24 @@
+{
+  "name": "urlshorter",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "main": "app.js",
+  "engines": {
+    "node": "14.x"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "firebase": "^9.6.1",
+    "firebase-admin": "^10.0.1",
+    "morgan": "~1.9.1",
+    "shortid": "^2.2.16",
+    "netlify-lambda": "^0.4.0",
+    "serverless-http": "^1.6.0"
+  }
+}
